@@ -1,0 +1,199 @@
+/* mobile section started  */
+
+@media only screen and (max-width : 768px) {
+	.research-container__card-grp {
+		margin-top : 3vw !important;
+		margin-bottom : 2vw !important;
+		gap: 1vw !important;
+	}
+
+	.research-details-container h1 {
+		font-size: 3.6vw !important;
+	}
+
+
+	.research-container__card-grp__card {
+		height : 55vw !important;
+		width :25vw !important;
+		padding : 1.3vw !important;
+		font-size : 2vw !important;
+	}
+
+	.research-container__card-grp__card__img{
+		height : 35vw !important;
+	}
+	.research-container__card-grp__card__img img {
+	/*	height : 100%;*/
+		width: 100%;
+	}
+
+	.research-container__card-grp__card__header span {
+		font-size: 2vw !important;
+	}
+	.research-container__card-grp__card__header {
+		margin-top: 2vw !important;
+	}
+
+	.research-container__card-grp__card__body {
+		margin-top: 4.6vw !important;
+		padding : 0 .4vw !important;
+	}
+	.research-container__card-grp__card__footer {
+/*		height: 6vw !important;*/
+		margin-bottom : 3vw !important;
+	}
+	.research-container__card-grp__card__footer a {
+		padding : .5vw 2vw !important;
+	}
+
+	.research-details-container img {
+		height : 30vw !important;
+	}
+	.research-details-container__body {
+		padding : 0 20vw !important;
+		margin-top : 3vw !important;
+	}
+
+	.research-details-container__body p:nth-child(2) {
+		margin-top: .9vw !important;
+	}
+
+	.research-details-container__footer {
+		width: 43vw !important;
+		height : 6vw !important;
+		margin-bottom : 3vw !important;
+	}
+
+	.research-details-container__footer a {
+		padding : .5vw 2vw !important;
+	}
+
+	.research-container p {
+		font-size : 2.7vw !important;
+	}
+
+}
+
+/* mobile section ended  */
+
+.research-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Cairo', sans-serif;
+	font-family: 'Hind Madurai', sans-serif;
+	font-family: 'Lora', serif;
+}
+
+.research-container h2 {
+	display: inline-block;
+	border-bottom : 7px solid #EC9A13;
+}
+
+.research-container__card-grp {
+	margin-top : 3rem;
+	margin-bottom : 2rem;
+	display: flex;
+	gap: 2rem;
+	justify-content: center;
+}
+.research-container__card-grp__card {
+	height : 30rem;
+	width :15rem;
+	background-color: black;
+	padding : 1.3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.research-container__card-grp__card__img{
+	position: relative;
+	overflow: hidden;
+	height : 15rem;
+}
+.research-container__card-grp__card__img img {
+/*	height : 100%;*/
+	width: 100%;
+}
+
+.research-container__card-grp__card__header span {
+	font-weight: 800;
+	font-size: 1rem;
+	color : white;
+}
+.research-container__card-grp__card__header {
+	margin-top: 1.7rem;
+}
+
+.research-container__card-grp__card__body {
+	color : white;
+	text-align: left;
+	margin-top: 2.3rem;
+	padding : 0 .4rem;
+}
+.research-container__card-grp__card__footer {
+	display: flex;
+	justify-content: start;
+	height: 6rem;
+	width: 100%;
+	align-items: self-end;
+}
+.research-container__card-grp__card__footer a {
+	background-color : #ED9910;
+	color : white;
+	font-weight: 700;
+	padding : .5rem 2rem;
+	text-decoration: none;
+}
+body {
+	background-color: #E3DFD9;
+}
+
+.research-details-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.research-details-container h2 {
+	display: inline-block;
+	border-bottom: 7px solid #ED9910;
+}
+.research-details-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	font-family: 'Cairo', sans-serif;
+	font-family: 'Hind Madurai', sans-serif;
+	font-family: 'Lora', serif;
+}
+
+.research-details-container img {
+	height : 20rem;
+}
+.research-details-container__body {
+	padding : 0 20rem;
+	margin-top : 3rem;
+}
+
+.research-details-container__body p:nth-child(2) {
+	margin-top: .9rem;
+}
+
+.research-details-container__footer {
+	display: flex;
+	justify-content: end;
+	width: 43rem;
+	height : 6rem;
+	align-items: end;
+	margin-bottom : 3rem;
+}
+
+.research-details-container__footer a {
+	background-color :red;
+	padding : .5rem 2rem;
+	color : white;
+	text-decoration: none;
+}

@@ -1,0 +1,145 @@
+.body-info-graphics {
+	font-family: 'Cairo', sans-serif;
+	font-family: 'Hind Madurai', sans-serif;
+	font-family: 'Lora', serif;
+/*	height : 35rem;*/
+	display: flex;
+	flex-direction: row;
+	background-color: black;
+
+
+}
+
+.body-info-graphics__item-left {
+	background-color: #0A171AD9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 2;
+}
+
+.body-info-graphics__item-left__inner-sqr {
+	background-color: white;
+	padding : 1.5rem;
+	height: 30rem;
+}
+
+.body-info-graphics__item-left__inner-sqr p {
+	color : #ED9910;
+	margin-top : 1.5rem;
+}
+
+.body-info-graphics__item-left__inner-sqr > img {
+	height : 100%;
+}
+
+.body-info-graphics__item-right {
+	background-color: #EC9A13;
+	flex-grow: 1.5;
+	padding : 1rem;
+	text-decoration: none;
+	color : black;
+}
+.body-info-graphics__item-right:hover {
+	color :black;
+}
+.fitness-boy {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.fitness-boy h3:nth-child(1) {
+	font-weight: 100;
+/*	display: none;*/
+}
+
+.fitness-boy__sqr {
+	background-color: #142B3C;
+	padding : 1.5rem;
+}
+.fitness-boy p {
+	color : #ED9910;
+}
+body {
+	background-color: #E3DFD9;
+}
+
+.body-second-box {
+	font-family: 'Cairo', sans-serif;
+	font-family: 'Hind Madurai', sans-serif;
+	font-family: 'Lora', serif;
+	margin: 0 5rem;
+}
+.body-second-box div {
+	display: flex;
+	gap : 3rem;
+	padding : 1rem;
+}
+
+.body-second-box div p:nth-child(1){
+	text-align: right;
+}
+
+.tips-container h2 {
+	border-bottom: 7px solid #EC9A13;
+	display: inline-block;
+}
+
+.tips-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Cairo', sans-serif;
+	font-family: 'Hind Madurai', sans-serif;
+	font-family: 'Lora', serif;
+	margin: 0 6rem;
+}
+
+.tips-container__tips-section em {
+	font-weight: 800;
+	margin-bottom : 3rem;
+}
+
+@media only screen and (max-width : 768px) {
+	.body-second-box div {
+		padding: 0 !important;
+		justify-content: center;
+
+	}
+
+	.body-info-graphics {
+		font-family: 'Cairo', sans-serif;
+		font-family: 'Hind Madurai', sans-serif;
+		font-family: 'Lora', serif;
+	/*	height : 35rem;*/
+		display: flex;
+		flex-direction: column;
+		background-color: black;
+	}
+
+	.body-info-graphics__item-left {
+		background-color: #0A171AD9;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-grow: 2;
+		padding : 10vw 	!important;
+		height: 95vw;
+	}
+
+	.body-info-graphics__item-left__inner-sqr {
+		background-color: white;
+		padding : 1.5vw !important;
+		height: 75vw !important;
+		width: 80vw;
+	}
+
+	.body-info-graphics__item-left__inner-sqr > img {
+		width: 100%;
+	}
+
+	.tips-container {
+		margin : 0 4vw !important;
+	}
+}

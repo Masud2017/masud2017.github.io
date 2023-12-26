@@ -1,0 +1,123 @@
+:root{
+	margin: 0;
+	scroll-behavior: smooth;
+	padding:0;
+}
+
+/* mobile version section started */
+@media only screen and (max-width : 768px) {
+	.nav {
+		height : 4rem;
+		padding-left: 1vw !important;
+		padding-right: 1vw !important;
+	}
+	
+	.nav-brand {
+		width: 25vw !important;
+		height: auto !important
+	}
+	
+	.nav-link-grp {
+		gap:2vw !important;
+	}
+
+	.nav-link {
+		font-size : 3vw !important;
+	}
+
+	.selected-nav-btn {
+		border: .5vw solid #FF0000 !important;
+		border-radius: .2vw !important;
+		padding : .5vw 1vw !important;
+	}
+	
+	.contact-us {
+		padding : 1vw .5vw !important;
+/*		border-radius: .2rem;*/
+	}
+	.footer-first-box img {
+		height : 5vw;
+	}
+
+	.footer-first-box__contact-info > a {
+		border-radius: 1vw !important;
+		padding: .5vw 3vw !important;
+	}
+}
+/* mobile version section ended */
+
+.nav {
+		height : 4rem;
+		background-color :white;
+		display: flex;
+		flex-direction: row;
+		align-items : center;
+		justify-content: space-between;
+		padding-left: 3rem;
+		padding-right: 3rem;
+		font-family: 'Cairo', sans-serif;
+		font-family: 'Hind Madurai', sans-serif;
+	}
+	.nav-link {
+		text-decoration: none;
+		color : black;
+
+	}
+	.nav-brand {
+		height : 100%;
+	}
+	.nav-link-grp {
+		display: flex;
+		flex-direction: row;
+		gap:4rem;
+		align-items: center;
+	}
+	.selected-nav-btn {
+		color : #FF0000;
+		font-weight: 800;
+		border: .5px solid #FF0000;
+		border-radius: .2rem;
+		padding : .5rem 1.5rem;
+	}
+	.contact-us {
+		background-color : #FAA211;
+		font-weight: 800;
+		padding : .5rem 1.5rem;
+/*		border-radius: .2rem;*/
+	}
+
+	footer {
+		background-color: #142B3C;
+		height : 12rem;
+		text-align: center;
+		font-family: 'Cairo', sans-serif;
+		font-family: 'Hind Madurai', sans-serif;
+	}
+	.footer-first-box {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding : 1rem 2rem;
+	}
+	footer p {
+		color : #ED9910;
+	}
+
+	.footer-first-box__contact-info {
+/*		margin-right : 12rem;*/
+		margin-top: 2rem;
+	}
+	.footer-first-box__contact-info > a {
+		background-color: #ED9910;
+		border-radius: 1rem;
+		padding: .5rem 3rem;
+		text-decoration: none;
+		font-weight: 800;
+		color : white;
+	}
+	.footer-first-box__contact-info div {
+		display: flex;
+		gap : 1rem;
+		justify-content: center;
+
+	}

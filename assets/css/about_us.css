@@ -1,0 +1,147 @@
+/* mobile section started */
+
+@media only screen and (max-width : 768px) {
+	.about_us-box div {
+		flex-direction: column !important;
+		margin: 0 5vw !important;
+		padding : 5vw !important;
+/*		position: relative;*/
+		align-items: center;
+		width: 100% !important;
+	}
+
+
+	.about_us__dancing-graphics img:nth-child(1) {
+		height: 35vw !important;
+		left : 7vw !important;
+	}
+
+	.about_us-box div div:nth-child(1) {
+		flex-grow: 1;
+	/*	width: 80rem;*/
+		height: 40vw !important;
+	}
+
+	.about_us__dancing-graphics img:nth-child(2) {
+		height:28.25vw !important;
+		top:-2.4vw !important;
+		left : 7vw !important;
+/*		transform: scale(75%);*/
+	}
+
+	.about_us__dancing-graphics img:nth-child(3) {
+		height:28.25vw !important;
+		top:-2.4vw !important;
+		left : 7vw !important;
+
+		transform: scale(90%) !important;
+	}
+	.about_us__dancing-graphics {
+		position: relative;
+		width: 100% !important;
+		display:flex;
+/*		justify-content: center;*/
+		align-items: center;
+/*		display: none !important;*/
+		transform: translateX(28%);
+	}
+	.about_us__dancing-graphics div {
+		height : 10.5vw !important;
+		width: 24vw !important;
+	}
+
+	.about_us-box div div:nth-child(2) {
+		width : 53vw !important;
+		font-size: 2.6vw !important;
+		padding:4vw !important;
+	}
+
+	.about_us-box {
+		height : 150vw !important;
+	}
+
+
+
+}
+/* mobile section ended */
+
+
+.about_us-box {
+	font-family: 'Cairo', sans-serif;
+	font-family: 'Hind Madurai', sans-serif;
+	font-family: 'Lora', serif;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	height : 40rem;
+/*	margin : 0 2rem;*/
+
+}
+
+.about_us-box h1:nth-child(1) {
+	border-bottom : 7px solid #ED9910;
+	display: inline-block;
+}
+
+.about_us-box div {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	gap : .2rem;
+/*	margin: 0 5rem;*/
+	justify-content: center;
+}
+
+.about_us-box div div:nth-child(1) {
+	flex-grow: 1;
+/*	width: 80rem;*/
+}
+
+.about_us-box div div:nth-child(2) {
+	width : 80rem;
+	font-size: 1.4rem;
+	font-weight: 100;
+	display: flex;
+	flex-direction: column
+}
+
+.about_us__dancing-graphics img:nth-child(1) {
+	height: 28rem;
+	position: absolute;
+	bottom:0;
+	z-index: 10000;
+}
+
+.about_us__dancing-graphics img:nth-child(2) {
+	position: absolute;
+	height:26.5rem;
+	top:-2.5rem;
+	left : .7rem;
+}
+
+.about_us__dancing-graphics img:nth-child(3) {
+	position: absolute;
+	height:26.5rem;
+	top:-2.5rem;
+	left : .7rem;
+	transform: scale(87%);
+}
+.about_us__dancing-graphics {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.about_us__dancing-graphics div {
+	background-color: #DA4313;
+	height : 25rem;
+	width: 77%;
+	left : 0;
+	position: absolute;
+	z-index: -1000;
+	bottom:.5rem;
+}
+body {
+	background-color: #E3DFD9;
+}

@@ -1,0 +1,61 @@
+@media only screen and (max-width : 768px) {
+	.thoughts-box {
+		height : 40vw !important;
+		padding:3vw !important;
+		gap : 3vw !important;
+		width: 80vw !important;
+		margin-bottom:.8vw !important;
+		font-size: 3vw !important;
+	}
+
+
+	.thoughts-box div:nth-child(2) {
+		padding : 2vw !important;
+	}
+
+	.thoughts-container {
+		margin: 0 6vw !important;
+	}
+}
+
+.thoughts-container {
+/*	text-align: center;*/
+	font-family: 'Cairo', sans-serif;
+	font-family: 'Hind Madurai', sans-serif;
+	font-family: 'Lora', serif;
+	margin: 0 6rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.thoughts-container h2 {
+	display: inline-block;
+	border-bottom: 7px solid #EC9A13;
+
+}
+
+.thoughts-box {
+	background-color: black;
+	height : 17rem;
+	color : white;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding:1rem;
+	gap : 3rem;
+	width: 45rem;
+	margin-bottom:.8rem;
+}
+.thoughts-box div:nth-child(2) {
+	padding : 2rem;
+}
+
+.thoughts-box div:nth-child(1) {
+	position: relative;
+	overflow: hidden;
+}
+
+.thoughts-box img {
+	height : 100%;
+}
